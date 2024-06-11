@@ -1,0 +1,501 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+}
+body{
+  background-color: rgb(91, 134, 91);
+}
+/* Navbar styles */
+.navbar-nav .nav-item:not(:last-child) {
+margin-right: 10px;
+border-right: 1px solid rgb(161, 233, 94); /* Add a border on the right side */
+padding-right: 10px; /* Add some padding to create space between the border and the text */
+}
+
+.navbar-nav .nav-link {
+color: white; /* Change color to white */
+}
+
+.navbar-nav {
+width: 100%;
+display: flex;
+justify-content: center; /* Center align items horizontally */
+}
+
+.navbar-custom {
+background-color: rgb(9, 80, 6);
+color: white;
+}
+
+.dropdown-divider {
+margin-top: 0.5rem;
+margin-bottom: 0.5rem;
+}
+
+.logotext {
+color: whitesmoke;
+margin-left: 30px;
+font-size: 30px;
+text-shadow: rgb(255, 255, 255) 1px 0 2px;
+position: relative;
+top: 49px;
+}
+
+.star {
+margin-left: 100px;
+font-size: 20px;
+color: rgb(255, 255, 255);
+}
+
+.nav-link {
+color: rgb(255, 255, 255);
+font-size: 2vh;
+}
+
+.nav-link.dropdown-toggle {
+color: rgb(255, 255, 255);
+font-size: 2vh;
+}
+
+.nav {
+float: left;
+margin-left: 5vw;
+margin: 0 auto;
+}
+
+.col {
+margin-top: 13vh;
+}
+
+.carousel-caption.d-none.d-md-block {
+margin-bottom: -20px;
+height: 1vh;
+text-align: center;
+opacity: 0.7;
+background-color: black;
+width: 100%;
+margin-left: -64px;
+}
+
+.menu {
+text-align: center;
+color: white;
+margin-bottom: 1vh;
+}
+
+.special {
+color: white;
+}
+
+.card.h-100 {
+border: 2px solid rgb(49, 77, 32);
+}
+body {
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+margin: 0;
+overflow: auto;
+}
+
+footer {
+width: 100vw;
+height: 35vh;
+background-color: rgb(34, 48, 32);
+margin-top: 6vh;
+color: white;
+}
+
+.footer-panel {
+margin-top: 2vh;
+text-align: center;
+}
+
+main {
+text-align: center;
+margin-top: 4vh;
+margin-bottom: 14vh;
+color: rgb(95, 150, 95);
+text-shadow: rgb(95, 150, 95) 1px 0 2px;
+}
+
+.card {
+margin-bottom: 3vh;
+background-color: rgb(9, 80, 6);
+}
+
+.lunch {
+color: rgb(255, 255, 255);
+text-align: center;
+font-size: 16px;
+text-decoration: none;
+text-decoration-line: none;
+}
+
+.card.mb-3 {
+margin-left: 2vw;
+margin-top: 1vw;
+}
+
+.card-text {
+color: white;
+}
+
+.card-title {
+color: white;
+font-weight: bold;
+}
+
+.sp-h {
+color: rgb(97, 8, 60);
+text-shadow: none;
+border-radius: 25px;
+font-size: 30px;
+font-family: serif;
+}
+
+.row.row-cols-1.row-cols-md-2.g-4 {
+margin-left: 30vw;
+}
+
+.card2 {
+margin-right: 2vw;
+}
+
+.fw-normal {
+color: rgb(97, 8, 60);
+font-size: 20px;
+margin-top: 1vh;
+font-family: serif;
+text-shadow: none;
+}
+
+.normal {
+color: rgb(11, 41, 3);
+font-family: Arial, Helvetica, sans-serif;
+text-shadow: none;
+text-align: center;
+}
+
+.btn.btn-secondary {
+background-color: rgb(9, 80, 6);
+color: white;
+}
+
+.foot {
+margin-top: 3vh;
+}
+.aboutus {
+ 
+  background-image: url('aboutus.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+ 
+}
+.awards {
+ 
+  background-image: url('aboutus.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+ 
+}
+.content-container {
+  max-width: 800px; /* Adjust as needed */
+  margin: auto; /* Center the container */
+  padding: 20px; /* Add padding for spacing */
+  background-color: #f2f2f2; /* Background color for the container */
+  border-radius: 15px; /* Rounded corners for a nicer look */
+}
+
+.a-u {
+  text-align: center; /* Align content to the right */
+  color: rgb(53, 102, 53) ;
+  margin-right: 10px;
+}
+
+.a-u .sp-h2 {
+  text-align: right; /* Align heading to the left */
+  color: red;
+}
+
+.normal2 {
+  text-align: right; /* Align paragraphs to the left */
+  font-size: 16px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+align-content:start ;
+}
+
+@media screen and (max-width: 768px) {
+  .sp-h2 .normal2 {
+    text-align: left; /* Align content to the left on smaller screens */
+  }
+}
+
+.a-u3 {
+  text-align: right; /* Align content to the right */
+    color: rgb(53, 102, 53) ;
+  margin-right: 80px;
+}
+
+.a-u3 .sp-h3 {
+  text-align: right; /* Align heading to the left */
+  color: red;
+}
+
+.normal3 {
+  text-align: right; /* Align paragraphs to the left */
+  font-size:16px;
+}
+
+@media screen and (max-width: 768px) {
+  .sp-h3 .normal3 {
+    text-align: left; /* Align content to the left on smaller screens */
+  }
+}
+  
+
+
+/* Responsive images */
+img {
+max-width: 100%;
+height: auto;
+}
+
+/* Adjust margins and paddings for smaller devices */
+@media (max-width: 768px) {
+.logotext {
+  margin-left: 10px;
+  font-size: 20px;
+  top: 29px;
+}
+
+.star {
+  margin-left: 50px;
+  font-size: 14px;
+}
+}
+
+@media (max-width: 1365px) {
+.navbar-nav {
+  justify-content: flex-end;
+}
+
+.navbar-nav .nav-link {
+  font-size: 0.9rem; /* Adjust the font size as needed */
+  margin-left: 1rem; /* Add some spacing between links */
+}
+}
+
+@media (max-width: 992px) {
+.navbar-toggler {
+  display: block;
+}
+
+.navbar-collapse {
+  display: none;
+}
+
+.navbar-collapse.show {
+  display: block !important;
+}
+}
+
+.card {
+position: relative;
+overflow: hidden;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.card .card-title {
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+padding: 10px;
+padding-bottom: 20px;
+margin-bottom: 0;
+background-color: rgba(0, 0, 0, 0.5);
+color: #fff;
+text-align: center;
+font-size: 5px;
+}
+
+@media (max-width: 1308px) {
+.card-title a {
+  font-size: 0.8rem; /* Adjust the font size as needed */
+}
+}
+@media (max-width: 1364px) {
+.card-title a {
+  font-size: 0.7rem; /* Adjust the font size as needed */
+}
+}
+@media (max-width: 991px) {
+  .card-title  {
+    font-size: 3px; /* Adjust the font size as needed */
+  }
+  }
+  
+iframe {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+main {
+flex: 1;
+}
+
+.card {
+position: relative;
+overflow: hidden;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+margin-bottom: 20px; /* Add spacing between cards */
+}
+
+.card img {
+width: 100%;
+height: auto; /* Keep aspect ratio */
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+
+.card .card-body {
+padding: 15px;
+}
+
+.card .card-title {
+margin-bottom: 0; /* Remove default margin */
+}
+
+@media (max-width: 576px) {
+.col-xxs-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+}
+
+/* Special */
+.card {
+margin-bottom: 20px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+width: 100%;
+height: auto;
+border-top-left-radius: 50%;
+border-top-right-radius: 50%;
+}
+
+.card-body {
+text-align: center;
+}
+
+.card-title {
+margin-top: 15px;
+font-size: 30px;
+}
+
+.normal {
+font-size: 16px;
+line-height: 1.5;
+}
+
+/* Footer */
+.panel-footer .foot {
+font-size: 16px;
+line-height: 1.5;
+}
+
+.panel-footer .foot span {
+font-weight: bold;
+}
+
+.panel-footer .foot p {
+margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+.panel-footer .foot {
+  font-size: 14px;
+}
+}
+
+@media (max-width: 576px) {
+.panel-footer .foot {
+  font-size: 12px;
+}
+}
+
+.panel-footer .row {
+margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+.panel-footer .row {
+  flex-wrap: wrap;
+}
+}
+
+@media (max-width: 576px) {
+.panel-footer .row {
+  margin-bottom: 10px;
+}
+}
+
+.panel-footer .copyright {
+text-align: center;
+margin-top: 20px; /* Adjust as needed */
+}
+
+@media (max-width: 575px) {
+.panel-footer {
+  position: relative;
+  text-align: right;
+  margin-top: 0;
+  margin-right: 10px; /* Adjust as needed */
+  margin-bottom: -50px;
+}
+}
+@media (max-width: 560px) {
+  .panel-footer .container .row section {
+    text-align: left;
+    margin-bottom: 0;
+  }
+  .panel-footer .text-center {
+    text-align: left;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  footer{
+    height: 93vh;
+  } 
+
+}
+  #preloader{
+    background: black url(images/loader.gif) no-repeat center;
+    background-size: 20%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+  
